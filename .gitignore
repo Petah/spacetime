@@ -1,3 +1,5 @@
 /nbproject/
 /temp/
 .idea/
+dist/
+.wrangler/
