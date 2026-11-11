@@ -15,7 +15,3 @@ A space shooter made for [js13kGames 2016](https://js13kgames.com/games/spacetim
 ## How it's built
 
 Plain JavaScript and SVG, no libraries. `spacetime/build.php` joins the scripts in `spacetime/src/`, shortens the names and minifies everything into one HTML file, `spacetime/build/index.min.html`. `spacetime/build/spacetime.zip` is the 11 KB entry as submitted.
-
-## Deploy
-
-`./deploy.sh` publishes the submitted build to Cloudflare at spacetime.projectz.co.nz (see `wrangler.jsonc`). Run `npx wrangler login` first.

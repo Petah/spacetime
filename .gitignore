@@ -3,3 +3,7 @@
 .idea/
 dist/
 .wrangler/
+
+# Deploy config and scripts stay local
+wrangler.jsonc
+deploy.local.sh
